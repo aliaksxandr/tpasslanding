@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.headernav .menu {
+  list-style: none;
+}
+.headernav .menu .menuitem a {
+  list-style: none;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0f2336;
+}
+.headernav .menu .menuitem {
+  display: inline-block;
+}
+.headerbutton button {
+  padding: 16px 26px 17px;
+  height: 50px;
+  background: #0f2336;
+  border: 1px solid #0f2336;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  cursor: pointer;
+}
