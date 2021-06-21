@@ -5,27 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>T.Pass landing</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container wrapper">
         <div class="headerlogo">
-          <img src="./images/logo.svg" alt="Site logo" />
+          <a href="#"><img src="./images/logo.svg" alt="Site logo" /></a>
         </div>
-        <nav class="headernav">
-          <ul class="menu">
-            <li class="menuitem"><a href="">Stores</a></li>
-            <li class="menuitem"><a href="">Help & Support</a></li>
-          </ul>
-        </nav>
-        <div class="headerbutton">
+        <div class="headermenu">
+          <nav>
+             <ul class="menu">
+               <li class="menuitem"><a href="">Stores</a></li>
+               <li class="menuitem"><a href="">Help & Support</a></li>
+             </ul>
+          </nav>
           <button>Download</button>
-        </div>
+        </div>        
       </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+       <section id="about" class="about">
+        <div class="container wrapper">
+          <div class="about__text">
+            <h1>
+              <span>Order ahead</span> and earn rewards for every purchase<span
+                >.</span
+              >
+            </h1>
+            <button>Discover how</button>
+          </div>
+        </div>
+      </section>
+      <section class="example">
+        <div class="wrapper">
+          <article class="block">
+            <img src="./images/icn1.svg" alt="icn1">
+            <h3>Order ahead, skip the line</h3>
+            <p>
+              Feel like a rock star when you bypass the line and save a bunch of time.
+            </p>
+          </article>
+          <article class="block">
+            <img
+              src="./images/icn2.svg"
+              alt="icn2"
+            />
+            <h3>Bonus and discounts</h3>
+            <p>
+              You can enjoy lots of discounts from the selected stores, or accumulate points.
+            </p>
+          </article>
+          <article class="block">
+            <img
+              src="./images/icn3.svg"
+              alt="icn3"
+            />
+            <h3>Share with your friends</h3>
+            <p>Send gifts to your friends and family, and pick up for your coworkers when they can't get away .</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+       <div class="container wrapper">
+        <div class="footerlogo">
+          <a href="#"
+            ><img src="./images/logofoot.svg" alt="logofoot"
+          /></a>
+        </div>
+        <div class="footermenu">
+          <div class="footermenuitem>
+            <h5>Company</h5>
+            <ul>
+              <li><a href="#">Merchant Portal</a></li>
+            </ul>
+          </div>
+          <div class="footermenuitem">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footermenuitem">
+            <h5>Follow Us</h5>
+            <ul>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
